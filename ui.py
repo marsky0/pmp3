@@ -349,7 +349,7 @@ class Ui_MainWindow(object):
         self.compact_layout_list.setSpacing(5)
         self.compact_layout_list.setObjectName("compact_layout_list")
         self.verticalLayout_5.addLayout(self.compact_layout_list)
-        spacerItem2 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+        spacerItem2 = QtWidgets.QSpacerItem(20, 0, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
         self.verticalLayout_5.addItem(spacerItem2)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.verticalLayout_8.addWidget(self.scrollArea)
