@@ -580,6 +580,55 @@ color: #bdcfff;</string>
             <height>1000000</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true">* {
+background:#14161b;
+}
+QScrollBar {
+background:#14161b;
+}
+
+QScrollBar:horizontal {
+border:none;
+background: #14161b;
+height: 10px;
+}
+
+QScrollBar::handle:horizontal {
+background:#363947;
+min-width: 20px;
+margin:2px;
+}
+
+QScrollBar::add-line:horizontal {
+background:none;
+}
+
+QScrollBar::sub-line:horizontal {
+background:none;
+}
+
+QScrollBar:vertical {
+border:none;
+background: #14161b;
+width: 10px;
+}
+
+QScrollBar::handle:vertical {
+background:#363947;
+min-height: 20px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+QScrollBar::add-line:vertical {
+background:none;
+}
+
+QScrollBar::sub-line:vertical {
+background:none;
+}</string>
+          </property>
           <property name="frameShape">
            <enum>QFrame::Shape::NoFrame</enum>
           </property>
@@ -632,7 +681,7 @@ color: #bdcfff;</string>
               <property name="sizeHint" stdset="0">
                <size>
                 <width>20</width>
-                <height>40</height>
+                <height>0</height>
                </size>
               </property>
              </spacer>
